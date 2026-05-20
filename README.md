@@ -10,6 +10,7 @@ The framework implements a rigorous verification pipeline:
 * **Aggregate Trust Metrics:** Computes a transparent confidence score based on the proportion of verified claims, providing users with a quantifiable "trust index."
 
 ## 🏗️ System Architecture
+![System Architecture](architecture-diagram.png)
 The pipeline follows a modular **RAG (Retrieval-Augmented Generation)** architecture:
 1. **Generation Module:** LLM-based output generation.
 2. **Claim Extractor:** LLM-driven parsing to generate JSON-structured atomic claims.
